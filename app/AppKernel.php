@@ -31,5 +31,12 @@ class AppKernel extends Kernel
         if (class_exists('\Pimcore\Bundle\LegacyBundle\PimcoreLegacyBundle')) {
             $collection->addBundle(new \Pimcore\Bundle\LegacyBundle\PimcoreLegacyBundle);
         }
+
+        /**
+         * Load Encore so the helper functions are available in your twig templates. Since we need it,
+         * no 'if (class_exists...'. I need an exception with why stuff isn't working.
+         */
+        $collection->addBundle(new \Symfony\WebpackEncoreBundle\WebpackEncoreBundle());
+
     }
 }

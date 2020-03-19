@@ -79,3 +79,5 @@ framework:
 #    session:
 #        handler_id: null
 
+webpack_encore:
+    output_path: "%kernel.root_dir%/../web/build/"

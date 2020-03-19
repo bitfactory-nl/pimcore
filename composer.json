@@ -8,8 +8,9 @@
   },
   "require": {
     "php": ">=7.2",
-    "wikimedia/composer-merge-plugin": "^1.4",
-    "pimcore/pimcore": "~6.5.0"
+    "pimcore/pimcore": "~6.5.0",
+    "symfony/webpack-encore-bundle": "^1.7",
+    "wikimedia/composer-merge-plugin": "^1.4"
   },
   "require-dev": {
     "cache/integration-tests": "^0.16.0",

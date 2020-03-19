@@ -1,0 +1,48 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <div id="site">
+
+        <div id="logo">
+            <img src="/bundles/pimcoreadmin/img/logo-claim-gray.svg" />
+        </div>
+
+        <h1>Boilerplate for Pimcore</h1>
+        <h4>Pimcore</h4>
+        <ul>
+            <li>Based on Pimcore Skeleton (<a href="https://github.com/pimcore/skeleton">https://github.com/pimcore/skeleton</a>)</li>
+            <li>Auto rendering enabled in BaseController of AppBundle using Twig</li>
+            <li>Twig cache disabled for dev</li>
+        </ul>
+
+        <h4>Webpack</h4>
+        <ul>
+            <li>Webpack preconfigured through Encore (Symfonies version of Laravel Mix)</li>
+            <li>Supports enabled for JS, SASS, VUE</li>
+            <li>Scripts for building, watching and running a server with HMR (for Vue apps)</li>
+            <li>Webpack notifier, notifies you of errors or successfull initial build</li>
+            <li>Support for Single File Vue Components</li>
+        </ul>
+
+        <h4>Webpack compile checks</h4>
+        <ul>
+            <li>JS: <span id="js-check">❌</span></li>
+            <li>SASS: <span id="sass-check-false">❌</span><span id="sass-check-true"></span></li>
+            <li>VUE: <span ref="vueCheck">❌</span></li>
+            <li>VUE Single File Component: <vue-check-component></vue-check-component></li>
+        </ul>
+        <p>Check the source code for where the js, sass and vue is implemented.</p>
+
+        <h1>NPM scripts</h1>
+        <ul>
+            <li>Build: <code class="clicmnd">npm run dev</code></li>
+            <li>Watch: <code class="clicmnd">npm run watch</code></li>
+            <li>Server: <code class="clicmnd">npm run dev-server</code> (HMR support, when building Vue App)</li>
+        </ul>
+
+
+        <h1>Example 1: pimcore editable in Twig</h1>
+        <p>Pimcore editable: {{ pimcore_input("Example") }}</p>
+
+    </div>
+{% endblock %}
