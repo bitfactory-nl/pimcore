@@ -13,6 +13,7 @@
  */
 use Pimcore\HttpKernel\BundleCollection\BundleCollection;
 use Pimcore\Kernel;
+use Symfony\Bundle\MakerBundle\MakerBundle;
 
 class AppKernel extends Kernel
 {
@@ -37,6 +38,12 @@ class AppKernel extends Kernel
          * no 'if (class_exists...'. I need an exception with why stuff isn't working.
          */
         $collection->addBundle(new \Symfony\WebpackEncoreBundle\WebpackEncoreBundle());
+
+        /**
+         * Load the makerbundle. It will give you some symfony commands for code generation. Useful for
+         * for example setting up a form, fictures or tests. See available commands: $ bin/console make
+         */
+        $collection->addBundle(new MakerBundle);
 
         /**
          * Example bundle. Comment or remove to deactivate
