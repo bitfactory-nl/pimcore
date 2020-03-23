@@ -10,6 +10,14 @@
  */
 require('../sass/app.scss');
 
+/**
+ * Include additional dependencies
+ */
+import Buefy from 'buefy'
+import 'buefy/dist/buefy.css'
+
+
+
 /*
  * require or import the bundle assets
  * Note that you can also add a new entry in webpack.config.js - this wil result in a separate file in /public/build

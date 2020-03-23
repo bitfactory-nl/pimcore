@@ -1,8 +1,13 @@
+import Buefy from "buefy";
+
 require('../sass/example.scss')
 
 /* Load Vue */
-import Vue from 'vue';
+import Vue from 'vue'
 import VueCheckComponent from '../../vue/checkVueComponent'
+
+/* Use Buefy in Vue */
+Vue.use(Buefy)
 
 window.addEventListener('load', function () {
     // instantiate Vue
