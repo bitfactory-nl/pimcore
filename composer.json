@@ -1,7 +1,15 @@
 {
-  "name": "pimcore/skeleton",
+  "name": "nathan/pimcore",
+  "description": "Pimcore 6 boilerplate based on Skeleton",
   "type": "project",
   "license": "GPL-3.0-or-later",
+  "authors": [
+    {
+      "name": "Nathan Waelkens",
+      "email": "nathan.waelkens@bitfactory.nl"
+    }
+  ],
+  "minimum-stability": "dev",
   "config": {
     "optimize-autoloader": true,
     "sort-packages": true
