@@ -9,7 +9,7 @@
       "email": "nathan.waelkens@bitfactory.nl"
     }
   ],
-  "minimum-stability": "dev",
+  "minimum-stability": "stable",
   "config": {
     "optimize-autoloader": true,
     "sort-packages": true
