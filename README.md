@@ -1,9 +1,39 @@
-# Pimcore 6 Project Skeleton 
+# Pimcore 6 boilerplate based on Skeleton
 
-This skeleton should be used by experienced Pimcore developers for starting a new project from the ground up. 
-If you are new to Pimcore, it's better to start with our demo package, listed below 😉
+## Features
+
+### Pimcore
+* Based on [Pimcore Skeleton](https://github.com/pimcore/skeleton">https://github.com/pimcore/skeleton)
+* Auto rendering enabled using Twig
+* Twig cache disabled for dev
+* Configuration through .env files
+* Symfony MakerBundle to generate code.
+
+### Webpack
+* Webpack preconfigured through Encore
+* Support enabled for JS, SASS, VUE
+* NPM scripts for build, watch and run a server with HMR
+* Webpack notifier
+* Support for Single File Vue Components
+* Buefy
+        
 
 ## Getting started 
+
+Get the code
+```bash
+$ git clone {repo-url} {project-name}
+```
+
+Create a database
+
+Copy .env.example to .env
+
+run 
+
+
+
+
 ```bash
 COMPOSER_MEMORY_LIMIT=-1 composer create-project pimcore/skeleton my-project
 cd ./my-project
