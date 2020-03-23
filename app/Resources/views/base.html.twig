@@ -4,29 +4,39 @@
     <meta charset="UTF-8">
     <title>Example</title>
 
-    <!-- ... -->
+    {# ... add stuff here that'll make team marketing proud ... #}
 
     {% block stylesheets %}
-        {# 'app' must match the first argument to addEntry() in webpack.config.js #}
+        {##
+         # Code below will render:
+         # <link rel="stylesheet" href="/build/app.css">
+         # 'app' must match the first argument to addEntry() in webpack.config.js
+         #
+         # Because it's in a twig block you can override this code.
+         #}
         {{ encore_entry_link_tags('app') }}
-
-        <!-- Renders a link tag (if your module requires any CSS)
-             <link rel="stylesheet" href="/build/app.css"> -->
     {% endblock %}
+
 </head>
 <body>
 
     {% block body %}
-        Your app's body
+        Your app's body... unlike with your wifes body, you can build it, shape it, constantly improve it or even
+        rebuild it. What are you waiting for?
+
+        Just add blocks like this, or create a new twig file, include this one en override
+        the body-block. See the exampleBundle/Resources/views/default.html.twig
+        The docs: https://twig.symfony.com/doc/3.x/
     {%  endblock %}
 
-<!-- ... -->
+    {# ... add stuff here that will make us all proud ... #}
 
     {% block javascripts %}
+        {##
+         # Code below will render:
+         # tsss... inspect the source yourself and learn something, you lazy bastard!
+         #}
         {{ encore_entry_script_tags('app') }}
-
-    <!-- Renders app.js & a webpack runtime.js file
-        <script src="/build/runtime.js"></script>
-        <script src="/build/app.js"></script> -->
     {% endblock %}
 </body>
+</html>

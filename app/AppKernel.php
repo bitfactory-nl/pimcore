@@ -38,5 +38,9 @@ class AppKernel extends Kernel
          */
         $collection->addBundle(new \Symfony\WebpackEncoreBundle\WebpackEncoreBundle());
 
+        /**
+         * Example bundle. Comment or remove to deactivate
+         */
+        $collection->addBundle(new \ExampleBundle\ExampleBundle());
     }
 }

@@ -25,6 +25,7 @@ Encore
      */
     // .addEntry('app', './assets/js/app.js')
     .addEntry('app', './app/Resources/assets/js/app.js')
+    // .addStyleEntry('app', './app/Resources/assets/sass/app.scss')
     //.addEntry('page1', './assets/js/page1.js')
     //.addEntry('page2', './assets/js/page2.js')
 

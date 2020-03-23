@@ -1,0 +1,3 @@
+example_homepage:
+    resource: "@ExampleBundle/Controller/"
+    type:     annotation
