@@ -76,7 +76,7 @@ $ npm install
 $ npm run dev
 ```
 
-8 - Point your virtual host to {projectname}/web
+9 - Point your virtual host to {projectname}/web
 
 Good to go! Navigate to http://localhost for your project or http://localhost/admin for the PimCore admin area.
 
