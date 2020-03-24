@@ -13,7 +13,7 @@
 
 # PimCore 6 boilerplate based on Skeleton
 
-This package is simply a polluted version of [Pimcore Skeleton](https://github.com/pimcore/skeleton">https://github.com/pimcore/skeleton), matching our stack to create een APP, 
+This package is simply a polluted version of [Pimcore Skeleton](https://github.com/pimcore/skeleton), matching our stack to create een APP, 
 short for Awesome Pimcore Project.
   
 * PimCore 6 / Symfony 4
