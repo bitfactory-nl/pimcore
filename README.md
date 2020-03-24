@@ -70,6 +70,15 @@ $ ./vendor/bin/pimcore-install
 $ rm app/config/installer.yml
 ```
 
+8 - Run npm
+```bash
+$ npm install
+$ npm run dev
+```
+
 8 - Point your virtual host to {projectname}/web
 
 Good to go! Navigate to http://localhost for your project or http://localhost/admin for the PimCore admin area.
+
+If you run into any problems, let me know! 
+Nathan. 
