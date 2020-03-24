@@ -72,4 +72,4 @@ $ rm app/config/installer.yml
 
 8 - Point your virtual host to {projectname}/web
 
-Good to go! Navigate to http://localhost for your project of http://localhost/admin for the PimCore admin area.
+Good to go! Navigate to http://localhost for your project or http://localhost/admin for the PimCore admin area.
