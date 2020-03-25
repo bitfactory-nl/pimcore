@@ -1,7 +1,7 @@
 {
-  "build/app.css": "/build/app.css",
-  "build/app.js": "/build/app.js",
-  "build/runtime.js": "/build/runtime.js",
-  "build/vendors~app.css": "/build/vendors~app.css",
-  "build/vendors~app.js": "/build/vendors~app.js"
+  "build/0.0eb62afe.css": "/build/0.0eb62afe.css",
+  "build/0.ab37a93c.js": "/build/0.ab37a93c.js",
+  "build/app.css": "/build/app.f472d22a.css",
+  "build/app.js": "/build/app.e1b380c7.js",
+  "build/runtime.js": "/build/runtime.cf4317a3.js"
 }
